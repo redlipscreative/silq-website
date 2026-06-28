@@ -22,7 +22,7 @@ export default function Footer() {
         <div>
           <div className="text-xs tracking-widest uppercase text-sand mb-3">Shop</div>
           <div className="flex flex-col gap-2">
-            {link('/shop', 'Shop')}
+            {link('/shop/active-dress', 'SilqSports Active Dress')}
             {link('/size-guide', 'Size Guide')}
           </div>
         </div>

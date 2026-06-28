@@ -12,10 +12,10 @@ export default function Hero() {
       {/* Background: two product images side by side */}
       <div className="absolute inset-0 flex">
         <div className="relative flex-1">
-          <Image src="/products/silq-safe-1.png" alt="SILQ SAFE" fill className="object-cover" priority />
+          <Image src="/products/active-dress-white.jpg" alt="SilqSports Active Dress - White" fill className="object-cover" priority />
         </div>
         <div className="relative flex-1">
-          <Image src="/products/silq-shape-1.png" alt="SILQ SHAPE" fill className="object-cover" priority />
+          <Image src="/products/active-dress-navy.jpg" alt="SilqSports Active Dress - Navy" fill className="object-cover" priority />
         </div>
       </div>
       {/* Overlay */}
