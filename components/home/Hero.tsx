@@ -23,7 +23,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 px-8 md:px-16 py-20">
         <p className="text-xs tracking-widest uppercase text-beige mb-5">{t('eyebrow')}</p>
-        <h1 className="font-heading text-5xl md:text-6xl tracking-widest2 text-cream mb-4">SILQ</h1>
+        <h1 className="font-heading text-5xl md:text-6xl tracking-widest2 text-cream mb-4">SilqSports</h1>
         <p className="text-base italic tracking-wide text-beige mb-8">{t('tagline')}</p>
         <div className="flex gap-3 flex-wrap">
           <Link href={`/${locale}/shop`}><Button>{t('shopNow')}</Button></Link>

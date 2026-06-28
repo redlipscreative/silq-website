@@ -29,7 +29,7 @@ export default function Navbar() {
   return (
     <nav className="bg-cream border-b border-beige px-6 md:px-10 py-4 flex items-center justify-between sticky top-0 z-50">
       <Link href={`/${locale}`}>
-        <Image src="/logo.png" alt="SILQ" width={80} height={40} className="object-contain" />
+        <Image src="/logo.png" alt="SilqSports" width={80} height={40} className="object-contain" />
       </Link>
       <div className="hidden md:flex gap-8">
         {navLink('/shop', t('shop'))}
